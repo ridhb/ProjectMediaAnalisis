@@ -76,7 +76,7 @@ class ScheduledTask extends TimerTask {
 			  Connection connection = null;
 			  
 			  try {
-			   connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/infoMedia","root", "mpokoneng");
+			   connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/infoMedia","Username", "Password");
 			  } catch (SQLException ex) {
 			   System.out.println("Gagal Membuat koneksi.");
 			   ex.printStackTrace();
